@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <main style={{padding:24,color:'#fff',background:'#111',minHeight:'100vh'}}><h1>VS3 Staff Console</h1><p>Build 1 skeleton is live.</p><p><Link href='/dashboard'>Open Dashboard</Link></p></main>}
